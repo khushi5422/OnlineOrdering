@@ -51,7 +51,7 @@ export default function Home() {
 
   return (
     <>
-      <h1 className="text-center">Cafe</h1>
+      <h1 className="text-center">Second Cafe</h1>
       <div className="d-flex overflow-auto">
         {navproducts.map((product) => (
           <ResponsiveCard key={product.name} image={product.image} text={product.name} onClick={() => handleCategoryClick(product.id)} />
