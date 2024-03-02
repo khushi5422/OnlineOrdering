@@ -1,11 +1,8 @@
 import { useState } from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '@/styles/Home.module.css';
 import ResponsiveCard from '@/components/navcard';
 import ItemCard from '@/components/itemcard';
 import { navproducts } from '@/data/navproducts';
-import { GarlicBread, Tea,Shake,Coffee , Maggie , Slice , FrenchFries , Pizza , Burger , HotDog , Sandwiches } from '@/data/products';
+import { GarlicBread, Tea, Shake, Coffee, Maggie, Slice, FrenchFries, Pizza, Burger, HotDog, Sandwiches , Cocktails } from '@/data/products';
 
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>('GarlicBread');
@@ -17,35 +14,37 @@ export default function Home() {
   let filteredItems: typeof GarlicBread | [] = [];
   if (selectedCategory === 'GarlicBread') {
     filteredItems = GarlicBread;
-  }else if (selectedCategory === 'Tea') {
+  } else if (selectedCategory === 'Tea') {
     filteredItems = Tea;
-  }else if (selectedCategory === 'Shake') {
+  } else if (selectedCategory === 'Shake') {
     filteredItems = Shake;
-  
-  }else if (selectedCategory === 'Coffee') {
+
+  } else if (selectedCategory === 'Coffee') {
     filteredItems = Coffee;
-   
-  }else if (selectedCategory === 'Maggie') {
+
+  } else if (selectedCategory === 'Maggie') {
     filteredItems = Maggie;
-   
-  }else if (selectedCategory === 'Slice') {
+
+  } else if (selectedCategory === 'Slice') {
     filteredItems = Slice;
-   
-  }else if (selectedCategory === 'FrenchFries') {
+
+  } else if (selectedCategory === 'FrenchFries') {
     filteredItems = FrenchFries;
-   
-  }else if (selectedCategory === 'Pizza') {
+
+  } else if (selectedCategory === 'Pizza') {
     filteredItems = Pizza;
-   
-  }else if (selectedCategory === 'Burger') {
+
+  } else if (selectedCategory === 'Burger') {
     filteredItems = Burger;
-   
-  }else if (selectedCategory === 'HotDog') {
+
+  } else if (selectedCategory === 'HotDog') {
     filteredItems = HotDog;
-   
-  }else if (selectedCategory === 'Sandwiches') {
+
+  } else if (selectedCategory === 'Sandwiches') {
     filteredItems = Sandwiches;
-  } 
+  } else if (selectedCategory === 'Cocktails') {
+    filteredItems = Cocktails;
+  }
   else {
     filteredItems = [];
   }

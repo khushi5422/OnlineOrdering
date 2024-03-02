@@ -2,56 +2,61 @@ export const navproducts = [
   {
     id : "Sandwiches",
     name: "Sandwiches",
-    image : "demo.png"
+    image : "sandwich.png"
   },
   {
     id : "GarlicBread",
     name: "Garlic Bread",
-    image : "demo.png"
+    image : "garlicbread.png"
   },
   {
     id : "HotDog",
     name: " Hot Dog",
-    image : "demo.png"
+    image : "hotdog.png"
   },
   {
     id : "Burger",
     name: "Burger",
-    image : "demo.png"
+    image : "burger.png"
   },
   {
     id : "Pizza",
     name: "Pizza",
-    image : "demo.png"
+    image : "pizza.png"
   },
   {
     id : "FrenchFries",
     name: "French Fries",
-    image : "demo.png"
+    image : "frenchfries.png"
+  },
+  {
+    id : "Cocktails",
+    name: "Cocktails",
+    image : "mojito.png"
   },
   {
     id : "Slice",
-    name: "Slice ",
-    image : "demo.png"
+    name: "Slice",
+    image : "slice.png"
   },
   {
     id : "Maggie",
     name: "Maggie ",
-    image : "demo.png"
+    image : "maggie.png"
   },
   {
     id : "Coffee",
     name: "Coffee ",
-    image : "demo.png"
+    image : "coffee.png"
   },
   {
     id : "Shake",
     name: "Shake ",
-    image : "demo.png"
+    image : "shake.png"
   },
   {
     id : "Tea",
     name: "Tea ",
-    image : "demo.png"
+    image : "tea.png"
   },
 ];

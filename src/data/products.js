@@ -20,113 +20,19 @@ export const Cocktails = [
     imageUrl : "demo.png", 
   },
 ];
-export const Whiskey = [
-  {
-    name: "Manhattan",
-    description : "White rum mixed with whiskey and sugar." ,
-    price : 192 ,
-    imageUrl : "demo.png",
-  },
-  {
-    
-    name: "Whiskey Sour",
-    description : "Fresh lemon juice infused premium whiskey and lime." ,
-    price : 182 ,
-    imageUrl : "demo.png",
-  },
-  {
-    
-    name: "old Fashioned",
-    description : "Brown sugar, lime and sugar mixed with whiskey." ,
-    price : 152 ,
-    imageUrl : "demo.png", 
-  },
-];
-export const Starter = [
-  {
-    name: "tomato soup",
-    description : "" ,
-    price : 12 ,
-    imageUrl : "demo.png",
-  },
-  {
-    
-    name: "bean salad",
-    description : "" ,
-    price : 12 ,
-    imageUrl : "demo.png",
-  },
-  {
-    
-    name: "toast",
-    description : "" ,
-    price : 12 ,
-    imageUrl : "demo.png", 
-  },
-  {
-    
-    name: "avocado cream",
-    description : "" ,
-    price : 12 ,
-    imageUrl : "demo.png", 
-  },
-  {
-    
-    name: "sweet potato rolls",
-    description : "" ,
-    price : 12 ,
-    imageUrl : "demo.png", 
-  },
-  {
-    
-    name: "savory waffles",
-    description : "" ,
-    price : 12 ,
-    imageUrl : "demo.png", 
-  },
-];
-export const Tapas = [
-  {
-    name: "autumn stew",
-    description : "cooked with herbs and served with butteted potatos and carrot" ,
-    price : 12 ,
-    imageUrl : "demo.png",
-  },
-  {
-    
-    name: "summer salad",
-    description : "a crisp and fresh summer salad with seasonal greens and berries" ,
-    price : 12 ,
-    imageUrl : "demo.png",
-  },
-  {
-    
-    name: "Spring soup",
-    description : "Refreshing and spicy leek soup topped with eatable flowers " ,
-    price : 12 ,
-    imageUrl : "demo.png", 
-  },
-  {
-    
-    name: "winter gratin",
-    description : "warming potato and beet gratin served with  a protein of the season " ,
-    price : 12 ,
-    imageUrl : "demo.png", 
-  },
-];
 export const GarlicBread = [
   {
     name: "GarlicBread1",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png",
+    imageUrl : "GarlicBread1.png",
   },
   {
     
     name: "GarlicBread2",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png",
+    imageUrl : "GarlicBread2.png",
   },
   {
     
