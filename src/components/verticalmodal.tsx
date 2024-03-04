@@ -1,12 +1,15 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Verticalmodal() {
   return (
     <>
-<button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-  Launch demo modal
-</button>
-<div className="modal fade" id="exampleModalCenter" tabIndex= {-1} role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div className='text-center p-2'>
+    <Link href="/checkout">
+      <button className='btn btn-outline-success'> Finalizing Your Order</button>
+    </Link>
+    </div>
+{/* <div className="modal fade" id="exampleModalCenter" tabIndex= {-1} role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div className="modal-dialog modal-dialog-centered" role="document">
     <div className="modal-content">
       <div className="modal-header">
@@ -24,7 +27,7 @@ export default function Verticalmodal() {
       </div>
     </div>
   </div>
-</div>
+</div> */}
     </>
   )
 }
