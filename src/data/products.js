@@ -3,21 +3,21 @@ export const Cocktails = [
     name: "Classic Mojito",
     description : "Rum infused with fresh lime, mint and sugar." ,
     price : 120 ,
-    imageUrl : "demo.png",
+    imageUrl : "classicmojito.png",
   },
   {
     
     name: "Royal Martini",
     description : "Freshly brewed espresso mixed with rum and lime." ,
     price : 112 ,
-    imageUrl : "demo.png",
+    imageUrl : "royalmartini.png",
   },
   {
     
     name: "Raspberry Mojito",
     description : "Rum stirred with raspberry, fresh mint, lime and sugar." ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "raspberrymojito.png", 
   },
 ];
 export const GarlicBread = [
@@ -25,21 +25,21 @@ export const GarlicBread = [
     name: "GarlicBread1",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "GarlicBread1.png",
+    imageUrl : "garlicbread1.png",
   },
   {
     
     name: "GarlicBread2",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "GarlicBread2.png",
+    imageUrl : "garlicbread2.png",
   },
   {
     
     name: "GarlicBread33",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "garlicbread3.png", 
   },
 ];
 export const Sandwiches = [
@@ -48,7 +48,7 @@ export const Sandwiches = [
     name: "Chocolate Sandwiches",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "sandwich2.png", 
     
   },
   {
@@ -56,7 +56,7 @@ export const Sandwiches = [
     name: "Mexican Club Sandwiches",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "sandwich3.png", 
     
   },
   {
@@ -64,7 +64,7 @@ export const Sandwiches = [
     name: "Peprica Club Sandwiches",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "sandwich2.png", 
     
   },
   {
@@ -72,7 +72,7 @@ export const Sandwiches = [
     name: "Bombay Club Sandwiches",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "sandwich3.png", 
     
   },
   {
@@ -80,7 +80,7 @@ export const Sandwiches = [
     name: "Paneer Cheese Corn Club Sandwiches",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "sandwich2.png", 
     
   },
   {
@@ -88,7 +88,7 @@ export const Sandwiches = [
     name: " Chilli Garlic Paneer Club Sandwiches",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "sandwich3.png", 
     
   },
   {
@@ -96,7 +96,7 @@ export const Sandwiches = [
     name: "Paneer Makhni Gravy Club Sandwiches",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "sandwich2.png", 
     
   },
 ];
@@ -107,7 +107,7 @@ export const HotDog = [
     name: "Veg Cheese Hot Dog",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "hotdog1.png", 
     
   },
   {
@@ -115,7 +115,7 @@ export const HotDog = [
     name: "Paneer Cheese Hot Dog",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "hotdog2.png", 
     
   },
 ];
@@ -126,7 +126,7 @@ export const Burger = [
     name: "Burger2324",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "burger1.png", 
     
   },
   {
@@ -134,7 +134,7 @@ export const Burger = [
     name: "Burger4634",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "burger2.png", 
     
   },
   {
@@ -142,7 +142,7 @@ export const Burger = [
     name: "Burger",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "burger3.png", 
     
   },
 ];
@@ -153,7 +153,7 @@ export const Pizza = [
     name: " Margerita Pizza",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "pizza1.png", 
     
   },
   {
@@ -161,7 +161,7 @@ export const Pizza = [
     name: "Pizza",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "pizza2.png", 
     
   },
   {
@@ -169,7 +169,7 @@ export const Pizza = [
     name: "Pizza22",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "pizza3.png", 
     
   },
 ];
@@ -179,7 +179,7 @@ export const FrenchFries = [
     name: "FrenchFries3243",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "frenchfries1.png", 
     
   },
   {
@@ -187,7 +187,7 @@ export const FrenchFries = [
     name: "FrenchFries345",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "frenchfries2.png", 
     
   },
   {
@@ -195,7 +195,7 @@ export const FrenchFries = [
     name: "FrenchFries346",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "frenchfries1.png", 
     
   },
 ];
@@ -205,7 +205,7 @@ export const Slice = [
     name: "Slice",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "slice.png", 
     
   },
   {
@@ -213,7 +213,7 @@ export const Slice = [
     name: "Slice22",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "slice.png", 
     
   },
   {
@@ -221,7 +221,7 @@ export const Slice = [
     name: "Slice333",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "slice.png", 
     
   },
 ];
@@ -231,7 +231,7 @@ export const Maggie = [
     name: "Maggie",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "maggie1.png", 
     
   },
   {
@@ -239,7 +239,7 @@ export const Maggie = [
     name: "Maggie22",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "maggie2.png", 
     
   },
   {
@@ -247,7 +247,7 @@ export const Maggie = [
     name: "Maggie33",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png", 
+    imageUrl : "maggie1.png", 
     
   },
 ];
@@ -257,7 +257,7 @@ export const Coffee = [
     name: "Coffee",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png",
+    imageUrl : "coffee1.png",
     
   },
   {
@@ -265,7 +265,7 @@ export const Coffee = [
     name: "Coffee22",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png",
+    imageUrl : "coffee2.png",
     
   },
   {
@@ -273,7 +273,7 @@ export const Coffee = [
     name: "Coffee333",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png",
+    imageUrl : "coffee1.png",
     
   },
 ];
@@ -283,7 +283,7 @@ export const Shake = [
     name: "Shake",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png",
+    imageUrl : "shake1.png",
     
   },
   {
@@ -291,7 +291,7 @@ export const Shake = [
     name: "Shake22",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png",
+    imageUrl : "shake2.png",
     
   },
   {
@@ -299,7 +299,7 @@ export const Shake = [
     name: "Shake33",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png",
+    imageUrl : "shake1.png",
     
   },
 ];
@@ -309,7 +309,7 @@ export const Tea = [
     name: "Tea",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png",
+    imageUrl : "tea1.png",
     
   },
   {
@@ -317,7 +317,7 @@ export const Tea = [
     name: "Masala Tea",
     description : "kiuhriwfhw" ,
     price : 12 ,
-    imageUrl : "demo.png",
+    imageUrl : "tea2.png",
     
   }
 ];
