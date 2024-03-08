@@ -1,59 +1,24 @@
-.fab-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    user-select: none;
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-  }
-  .fab-container:hover {
-    height: 100%;
-  }
-  .fab-container:hover .sub-button:nth-child(2) {
-    transform: translateY(-80px);
-  }
-  .fab-container:hover .sub-button:nth-child(3) {
-    transform: translateY(-140px);
-  }
-  .fab-container:hover .sub-button:nth-child(4) {
-    transform: translateY(-200px);
-  }
-  .fab-container:hover .sub-button:nth-child(5) {
-    transform: translateY(-260px);
-  }
-  .fab-container:hover .sub-button:nth-child(6) {
-    transform: translateY(-320px);
-  }
-  .fab-container .fab {
-    position: relative;
-    height: 70px;
-    width: 70px;
-    background-color: #4ba2ff;
-    border-radius: 50%;
-    z-index: 2;
-  }
-  .fab-container .fab::before {
-    content: " ";
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 35px;
-    width: 35px;
-    background-color: inherit;
-    border-radius: 0 0 10px 0;
-    z-index: -1;
-  }
-  .fab-container .fab .fab-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-  }
-  .fab-container .fab .fab-content .material-icons {
-    color: white;
-    font-size: 48px;
-  }
+.fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #007bff;
+  background-color: #fff;
+  color: #007bff;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fab:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.modal-dialog {
+  margin: 20% auto;
+}
