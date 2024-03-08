@@ -4,7 +4,7 @@ interface Props {
   tableNumber: number;
   customerName: string;
   phoneNumber: string;
-  orderItems: { name: string; price: number ;quantity : number}[];
+  orderItems: { name: string; quantity : number}[];
 }
 
 interface State {
@@ -12,29 +12,29 @@ interface State {
 }
 
 class BillCard extends React.Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-    this.state = {
-      total: 0,
-    };
-  }
+  // constructor(props: Props) {
+  //   super(props);
+  //   this.state = {
+  //     total: 0,
+  //   };
+  // }
 
-  componentDidMount() {
-    this.calculateTotal();
-  }
+  // componentDidMount() {
+  //   this.calculateTotal();
+  // }
 
-  calculateTotal() {
-    const { orderItems } = this.props;
-    let total = 0;
-    orderItems.forEach((item) => {
-      total += item.price * item.quantity;
-    });
-    this.setState({ total });
-  }
+  // calculateTotal() {
+  //   const { orderItems } = this.props;
+  //   let total = 0;
+  //   orderItems.forEach((item) => {
+  //     total += item.price * item.quantity;
+  //   });
+  //   this.setState({ total });
+  // }
 
   render() {
     const { tableNumber, customerName, phoneNumber, orderItems } = this.props;
-    const { total } = this.state;
+    // const { total } = this.state;
 
     return (
       <>
@@ -55,7 +55,6 @@ class BillCard extends React.Component<Props, State> {
       
       .bill-card-body {
         display: flex;
-        height: 115px;
       }
       
       .order-item-column {
@@ -82,7 +81,7 @@ class BillCard extends React.Component<Props, State> {
           <div>
             Table {tableNumber} - {customerName} - {phoneNumber}
           </div>
-          <b>Total: ₹ {total}</b>
+          {/* <b>Total: ₹ {total}</b> */}
         </div>
         <div className="bill-card-body">
           <div className="order-item-column">
@@ -93,14 +92,14 @@ class BillCard extends React.Component<Props, State> {
               </div>
             ))}
           </div>
-          <div className="order-item-column">
+          {/* <div className="order-item-column">
             <div className="order-item-column-header">Price</div>
             {orderItems.map((item, index) => (
               <div key={index} className="order-item-price">
                 ₹ {item.price * item.quantity}
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
       </>

@@ -3,8 +3,9 @@ import ResponsiveCard from '@/components/navcard';
 import ItemCard from '@/components/itemcard';
 import { navproducts } from '@/data/navproducts';
 import { GarlicBread, Tea, Shake, Coffee, Maggie, Slice, FrenchFries, Pizza, Burger, HotDog, Sandwiches , Cocktails } from '@/data/products';
-import Bottombutton from '@/components/bottombutton';
+import FloatingActionButton from '@/components/FloatingActionButton';
 import Verticalmodal from '@/components/verticalmodal';
+import { CartProvider } from '@/components/CartContext';
 
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>('GarlicBread');
@@ -52,7 +53,8 @@ export default function Home() {
   }
 
   return (
-    <>
+    <CartProvider>
+      <>
       <h1 className="text-center">Cafe</h1>
       <div className="d-flex overflow-auto">
         {navproducts.map((product) => (
@@ -62,11 +64,11 @@ export default function Home() {
 
       <div className="d-flex flex-wrap">
         {filteredItems.map((item) => (
-          <ItemCard key={item.name} name={item.name} description={item.description} price={item.price} imageUrl={item.imageUrl} />
+          <ItemCard key={item.name} name={item.name} description={item.description} price={item.price} imageUrl={item.imageUrl}  />
         ))}
       </div>
-      <Bottombutton/>
-      <Verticalmodal/>
-    </>
+      <FloatingActionButton/>
+      </>
+    </CartProvider>
   );
 }
