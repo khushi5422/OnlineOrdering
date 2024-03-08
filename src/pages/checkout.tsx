@@ -15,13 +15,13 @@ const Checkout: React.FC<CheckoutProps> = ({ clearCart }) => {
   console.log("Checkout page" ,cartItems);
   const [localCartItems, setLocalCartItems] = useState<CartItem[]>(cartItems);
 
-  const handleOrderNow = () => {
-    // Do something when the "Order Now" button is clicked, e.g. send an order to the server
-    // ...
+  // const handleOrderNow = () => {
+  //   // Do something when the "Order Now" button is clicked, e.g. send an order to the server
+  //   // ...
 
-    // Clear the cart after the order has been sent
-    clearCart();
-  };
+  //   // Clear the cart after the order has been sent
+  //   clearCart();
+  // };
 
   useEffect(() => {
     setLocalCartItems(cartItems);
@@ -55,7 +55,7 @@ const Checkout: React.FC<CheckoutProps> = ({ clearCart }) => {
 
         <BillCard tableNumber ={1}  customerName = "khushi"  phoneNumber = "9999999999" orderItems = {cartItems} />
         <div className='text-center'>
-        <Button variant="primary" type="submit" onClick={handleOrderNow}>
+        <Button variant="primary" type="submit">
           Order Now
         </Button>
         </div>
