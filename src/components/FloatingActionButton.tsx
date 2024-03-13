@@ -3,6 +3,7 @@ import { Modal, Button } from 'react-bootstrap';
 import { useCart } from './CartContext';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { BiSolidCartAlt } from "react-icons/bi";
 
 const FloatingActionButton: React.FC = () => {
   const { cartItems } = useCart();
@@ -25,7 +26,7 @@ console.log("Cart Items in Cart floating button", cartItems);
   return (
     <>
       <button className="btn btn-primary fab" onClick={handleModalOpen}>
-        <i className="bi bi-plus"></i>
+        <i className="bi bi-plus"><BiSolidCartAlt /></i>
       </button>
 
       <Modal show={showModal} onHide={handleModalClose} centered>

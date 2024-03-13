@@ -8,7 +8,7 @@ import Verticalmodal from '@/components/verticalmodal';
 import { CartProvider } from '@/components/CartContext';
 
 export default function Home() {
-  const [selectedCategory, setSelectedCategory] = useState<string | null>('GarlicBread');
+  const [selectedCategory, setSelectedCategory] = useState<string | null>('Pizza');
 
   const handleCategoryClick = (category: string) => {
     setSelectedCategory(category);
